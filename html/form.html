@@ -7,31 +7,91 @@
   <body>
     <form>
       <label for="name">Name</label>
-      <input name="fullName" placeholder="Ram" id="name" />
+      <input
+        type="text"
+        name="fullName"
+        placeholder="Ram"
+        id="name"
+        required
+        minlength="5"
+        maxlength="10"
+      />
 
       <br />
       <br />
 
       <label for="email">Email</label>
-      <input type="email" name="email" id="email" />
+      <input type="email" name="email" id="email" value="abc@gmail.com" />
 
       <br />
       <br />
 
       <label for="age">Age</label>
-      <input type="number" name="age" id="age" />
+      <input type="number" name="age" id="age" min="1" max="150" />
 
       <br />
       <br />
 
       <label for="password">Password</label>
-      <input type="password" name="password" id="password" />
+      <input type="password" name="password" id="password" minlength="7" />
 
       <br />
       <br />
 
       <label for="dob">Date Of Birth</label>
-      <input type="date" name="dob" id="dob" />
+      <input type="date" name="dob" id="dob" min="yyyy-mm-dd" />
+
+      <br />
+      <br />
+
+      <label for="file">Choose File</label>
+      <input type="file" />
+
+      <br />
+      <br />
+
+      <!-- Radio Button -->
+
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" checked />
+
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" />
+
+      <label for="others">Others</label>
+      <input type="radio" id="others" name="gender" />
+
+      <br />
+      <br />
+
+      <!-- Checkbox -->
+
+      <label for="science">Science</label>
+      <input type="checkbox" id="science" />
+
+      <label for="nature">Nature</label>
+      <input type="checkbox" id="nature" />
+
+      <label for="art">Art</label>
+      <input type="checkbox" id="art" />
+
+      <br />
+      <br />
+      <!-- Select -->
+      <label for="country">Select Country</label>
+      <select id="country">
+        <option>China</option>
+
+        <option>USA</option>
+
+        <option>Nepal</option>
+        <option selected>Canada</option>
+      </select>
+      <br />
+      <br />
+
+      <label for="feedback">User FeedBack</label>
+      <textarea rows="10" cols="50">Hello</textarea>
 
       <br />
       <br />
