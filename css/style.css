@@ -1,0 +1,35 @@
+/* Selector */
+/* h1 {
+  color: green;
+  background-color: yellow;
+} */
+
+/* * {
+  color: yellow;
+} */
+
+/* h1,
+h2 {
+  color: crimson;
+} */
+
+/* #secondSection h2 {
+  color: red;
+} */
+
+/* #secondpara {
+  color: red;
+}
+
+.bluepara {
+  color: blue;
+} */
+
+/* body {
+  color: red;
+} */
+
+h1 {
+  color: #bbff00;
+  background-color: #107110;
+}
