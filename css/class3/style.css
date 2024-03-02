@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "myFont";
+  src: url("font/Headmista.otf");
+}
+
+* {
+  /* font-family: myFont; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  color: red;
+
+  background-color: purple;
+  background-image: url("image/download.png");
+  background-repeat: no-repeat;
+  /* background-size: auto; */
+  /* background-attachment: fixed; */
+  /* background-position: 50px 90px; */
+  /* background-position-x: 50px;
+  background-position-y: 40px; */
+}
+
+h1 {
+  /* text-align: center; */
+}
+
+p {
+  font-size: 25px;
+  /* text-transform: capitalize;
+  text-decoration: line-through; */
+  /* text-align: justify; */
+  /* color: red; */
+  /* word-spacing: 50px; */
+  /* letter-spacing: 20px; */
+  /* text-indent: 80px; */
+}
+
+/* Display Property */
+
+.heading {
+  background-color: red;
+  display: inline;
+}
+
+.spanner {
+  background-color: yellow;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  /* display: block; */
+}
+
+/* Overflow */
+
+section {
+  width: 200px;
+  height: 300px;
+  background: bisque;
+  /* overflow-y: auto; */
+}
+
+.parent {
+  background-color: yellow;
+  width: 500px;
+  height: 500px;
+  /* overflow-x: ; */
+}
+
+.child {
+  background-color: red;
+  width: 700px;
+  height: 200px;
+}

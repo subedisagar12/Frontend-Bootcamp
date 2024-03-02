@@ -1,0 +1,56 @@
+/* vw, vh */
+
+/* 5+10+300+10+5 */
+section {
+  background-color: yellow;
+  width: 300px;
+  /* height: 200px; */
+  border: 5px solid blue;
+
+  font-size: 2rem;
+  font-family: arial;
+  font-style: oblique;
+  /* font-variant: small-caps; */
+  /* font-weight: 900; */
+
+  /* padding: 10px; */
+  /* margin: 10px 50px 100px 200px; */
+  /* margin-left: 50px;
+  margin-top: 50px; */
+  /* box-sizing: border-box; */
+
+  /* 
+one value padding: All Direction
+two value padding: First-> Top & Bottom, Second: Left & Right
+three value padding: First->Top, Second:Left & Right, Third:Bottom
+
+four value padding: First Value: Top and follow clockwise direction
+
+*/
+
+  /* padding: 20px 50px 75px 100px; */
+
+  /* padding-left: 30px;
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-bottom: 100px; */
+
+  /* border-left: 1px solid red;
+  border-right: 10px ridge red; */
+
+  /* border-width: 5px;
+  border-color: rgb(0, 0, 0);
+
+  border-style: solid; */
+  /* none, solid, dotted, dashed, double, groove, ridge */
+
+  /* font-size: 2rem; */
+}
+
+/* div { */
+/* background-color: red; */
+/* width: 300px; */
+/* width: 10em; */
+/* min-height: 300px;
+  max-height: 500px; */
+/* } */
