@@ -1,0 +1,58 @@
+.container {
+  background-color: blue;
+  width: 500px;
+  height: 1500px;
+  margin: 50px;
+  position: relative;
+}
+
+.item {
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+}
+
+#one {
+  background-color: yellow;
+  position: relative;
+  /* z-index: 3; */
+}
+
+#two {
+  background-color: red;
+  position: relative;
+  bottom: 50px;
+  left: 50px;
+  z-index: 1;
+  /* z-index: 4; */
+}
+
+#three {
+  background-color: purple;
+  position: relative;
+  bottom: 100px;
+  left: 100px;
+  /* position: fixed;
+  bottom: 0px;
+  right: 0px; */
+  /* top: 500px; */
+  /* top: 10px;
+  left: 0px; */
+
+  /* top: 10px; */
+  /* left: 200px; */
+  /* left: 200px; */
+  /* right: 100px; */
+  /* top: 100px; */
+  /* left: 100px; */
+  /* bottom: 100px; */
+  /* z-index: 1; */
+}
+
+#four {
+  background-color: pink;
+  position: relative;
+  bottom: 120px;
+  left: 150px;
+  /* height: 200px; */
+}
