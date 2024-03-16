@@ -1,0 +1,22 @@
+h4:hover {
+  font-size: 32px;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  background-color: red;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 200px;
+    border: 10px solid green;
+  }
+}
+
+/* @media screen and (min-width: 500px) and (max-width: 800px) {
+  .container {
+    background-color: blue;
+  }
+} */
