@@ -1,0 +1,18 @@
+
+
+name -> valid
+
+$age ->valid
+___ ->valid
+
+is Online -> invalid
+
+_is Online -> invalid
+
+1stPerson -> invalid
+first_person -> valid
+
+myPet -> valid
+
+full$name -> valid
+
